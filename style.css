@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.header a {
+    margin-left: 150px;
+    margin-top: 10px;
+    font-family: 'Sono', sans-serif;
+    text-decoration: none;
+    color: rgb(165, 164, 164);
+}
+
+.burger {
+    width: 30px;
+    height: 30px;
+    margin-right: 150px;
+    margin-top: 15px;
+}
+
+.burger:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.burger-line-1 {
+    margin-top: 5px;
+    width: 80%;
+    height: 3px;
+    background-color: black;
+}
+
+.burger-line-2 {
+    margin-top: 4px;
+    width: 80%;
+    height: 3px;
+    background-color: black;
+}
+
+.burger-line-3 {
+    margin-top: 4px;
+    width: 80%;
+    height: 3px;
+    background-color: black;
+}
+
+.homepage-image {
+    width: 100%;
+    height: 700px;
+    background-image: url(./images/gaming.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.homepage-text {
+    color: var(--main-color);
+    font-size: 60px;
+    margin-top: 100px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    /* important for later */
+    text-align: center;
+}
+
+.homepage-links {
+    margin-top: 40px;
+    color: var(--main-color);
+}
+
+.homepage-links a {
+    text-decoration: none;
+    color: var(--main-color);
+}
+
+.homepage-image button {
+    font-weight: 600;
+    margin-top: 40px;
+    /* top right bottom left */
+    padding: 15px 75px 15px 75px;
+    border: 2px solid var(--main-color);
+    background-color: transparent;
+    color: var(--main-color);
+}
+
+.homepage-image button:hover {
+    background-color: var(--main-color);
+    color: black;
+    cursor: pointer;
+}
+
+.homepage-image h4 {
+    margin-top: 100px;
+    color: var(--main-color);
+}
+
+.homepage-image a {
+    color: var(--main-color);
+}
+
+.slider {
+    margin-top: 50px;
+    width: 100%;
+    height: 700px;
+}
+
+.slider-square {
+    width: 85%;
+    height: 400px;
+    background-color: blueviolet;
+    position: relative;
+    top: 150px;
+    left: 100px;
+}
+
+.slider-keyboard {
+    background-image: url(./images/keyboard.jpg);
+    background-size: cover;
+    width: 800px;
+    height: 500px;
+    position: relative;
+    bottom: 150px;
+    left: 200px;
+}
+
+.slider-description {
+    width: 350px;
+    height: 300px;
+    background-color: var(--main-color);
+    position: relative;
+    left: 150px;
+    bottom: 100px;
+    padding: 30px;
+}
+
+.slider-description p {
+    margin-top: 10px;
+}
+
+.slider-description button {
+    margin-top: 40px;
+    padding: 10px 20px 10px 20px;
+    background-color: rgb(46, 46, 247);
+    color: white;
+    border: 0px;
+}
+
+.slider-description button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.contact {
+    width: 100%;
+    height: 600px;
+    display: flex;
+}
+
+.contact-image {
+    background-image: url(./images/gamepad.jpg);
+    width: 400px;
+    height: 600px;
+    background-size: cover;
+    margin-left: 100px;
+}
+
+.contact-info {
+    margin-top: 25px;
+    margin-left: 200px;
+}
+
+.contact-inputs {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;  
+}
+
+.contact-name {
+    padding: 5px 100px 5px 0px;
+    background-color: var(--main-color);
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.contact-name:focus {
+    padding: 5px 350px 5px 0px;
+}
+
+.contact-email {
+    padding: 5px 100px 5px 0px;
+    margin-top: 40px;
+    background-color: var(--main-color);
+    border-radius: 5px;
+}
+
+.contact-email:focus {
+    padding: 5px 350px 5px 0px;
+}
+
+.contact-textarea {
+    margin-top: 40px;
+    padding: 5px 95px 75px 5px;
+    background-color: var(--main-color);
+    
+}
+
+.contact-textarea:focus {
+    padding: 5px 345px 75px 5px;
+}
+
+.contact-info button {
+    margin-top: 20px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    background-color: var(--main-color);
+}
+
+.contact-info button:hover {
+    cursor: pointer;
+    background-color: black;
+    color: var(--main-color);
+}
+
+.contact-follow {
+    margin-top: 20px;
+}
+
+.contact-info img {
+    margin-top: 20px;
+    width: 30px;
+    height: 30px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(36, 35, 35);
+    color: var(--main-color);
+}
+
+.footer a {
+    color: var(--main-color);
+}
+
+
+@keyframes input-email-name {
+    from {
+        padding: 5px 100px 5px 0px;
+    }
+    to {
+        padding: 5px 350px 5px 0px;
+    }
+}
