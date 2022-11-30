@@ -330,7 +330,7 @@
         }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 360px) {
         .header a {
           margin-left: 50px;
         }
